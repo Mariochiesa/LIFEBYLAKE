@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cicloturismo Valtenesi</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Cicloturismo Valtenesi</h1>
+    <p>Scopri i percorsi più belli della Valtenesi in bicicletta</p>
+  </header>
+
+  <section id="percorsi">
+    <h2>Percorsi Disponibili</h2>
+    <div class="percorso">
+      <h3>1. Lonato - Salò</h3>
+      <p>Un itinerario panoramico tra colline e lago. Partenza: Cimitero di Lonato.</p>
+      <p><strong>Prezzo:</strong> 25€ a persona</p>
+    </div>
+    <div class="percorso">
+      <h3>2. Giro dei Castelli</h3>
+      <p>Alla scoperta dei castelli della Valtenesi partendo da Lonato. Percorso collinare.</p>
+      <p><strong>Prezzo:</strong> 30€ a persona</p>
+    </div>
+    <div class="percorso">
+      <h3>3. Lonato - Mura (Passaggio nel bosco)</h3>
+      <p>Un percorso immerso nella natura con tratti sterrati. Ideale per MTB.</p>
+      <p><strong>Prezzo:</strong> 20€ a persona</p>
+    </div>
+    <div class="percorso">
+      <h3>4. Lonato - Castello di Padenghe (Family)</h3>
+      <p>Percorso facile e adatto a famiglie, con vista sul lago e tappe relax.</p>
+      <p><strong>Prezzo:</strong> 18€ a persona</p>
+    </div>
+  </section>
+
+  <section id="noleggio">
+    <h2>Noleggio Biciclette</h2>
+    <ul>
+      <li>MTB: 22,50€ al giorno</li>
+      <li>MTB E-Bike: 45€ al giorno</li>
+    </ul>
+    <p>* Prezzi basati su quelli Decathlon maggiorati del 50%</p>
+  </section>
+
+  <section id="prenotazioni">
+    <h2>Prenota il Tuo Percorso</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="percorso">Scegli un percorso:</label>
+      <select id="percorso" name="percorso">
+        <option value="lonato-salo">Lonato - Salò</option>
+        <option value="castelli">Giro dei Castelli</option>
+        <option value="mura">Lonato - Mura (Bosco)</option>
+        <option value="padenghe">Lonato - Castello di Padenghe (Family)</option>
+      </select>
+
+      <button type="submit">Prenota</button>
+    </form>
+  </section>
+
+  <section id="galleria">
+    <h2>Galleria Fotografica</h2>
+    <p>(Sostituisci queste immagini con le tue)</p>
+    <img src="https://source.unsplash.com/800x400/?bicycle,nature" alt="foto cicloturismo">
+    <img src="https://source.unsplash.com/800x400/?lake,italy" alt="foto lago">
+    <img src="https://source.unsplash.com/800x400/?castle" alt="castello">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cicloturismo Valtenesi - Tutti i diritti riservati</p>
+  </footer>
+
+  <!-- Google Analytics esempio -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXX-X');
+  </script> -->
+</body>
+</html>
